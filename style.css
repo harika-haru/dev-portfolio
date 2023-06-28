@@ -9,7 +9,7 @@ body {
 .sidebar {
     position: sticky;
     top: 0;
-    background-color: #6d9eb0;
+    background-color: #005573;
     color: #fff;
     padding: 20px;
     width: 200px;
@@ -59,9 +59,24 @@ header {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    border: 5px solid #18cdff;
 }
 
-.education,
+.about-me
+{
+position: absolute;
+margin-bottom: 10px;
+top: 10px;
+left: 50%;
+}
+
+.career {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+}
+
+.languages,
 .skills,
 .hobbies {
     padding: 10px;
@@ -82,4 +97,10 @@ ul {
 
 li {
     margin-bottom: 5px;
+}
+
+.education {
+    position: absolute;
+    top: 50%;
+    right: 5%;
 }
